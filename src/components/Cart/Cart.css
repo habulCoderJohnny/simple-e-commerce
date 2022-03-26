@@ -1,0 +1,18 @@
+.selected-product{
+    position: sticky;
+    padding: 20px 20px;
+}
+.img-name{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.img-name img{
+    width: 100px;
+    height: 120px;
+    padding-right:5px;
+    border-radius: 50%;
+
+}
+
+
