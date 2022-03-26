@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: gold; 
+    text-shadow:2px 2px 6px black;
+}
+.marquee{
+    text-align: center;
+    font-weight: 700;
+    font-style: oblique;
+    color:#f16623;
+
+}
+marquee{
+    width:200px;
+    direction:left;
+   
+}
