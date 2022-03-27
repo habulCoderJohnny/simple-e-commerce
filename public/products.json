@@ -1,23 +1,17 @@
 [
-  {
-    "id": 1,
-    "title": "Women's Legends Naga Gold & Silver Chain Bracelet",
-    "price": 15.99,
-    "img": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-    "rating":4.6
-  },
-  {
-    "id": 2,
-    "title": "Solid Gold Petite Micropave ",
-    "price": 12.99,
-    "img": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-    "rating":4.6
-  },
+  
   {
     "id": 3,
     "title": "White Gold Plated Princess",
     "price": 10.99,
     "img": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating":4.6
+  },
+  {
+    "id": 6,
+    "title": "The Pink Crest",
+    "price": 20.99,
+    "img": "https://www.linkpicture.com/q/LPic623edb7462e001324412939.png",
     "rating":4.6
   },
   {
@@ -34,13 +28,7 @@
     "img": "https://cdn.shopify.com/s/files/1/1259/1581/products/65832.main_grande.jpg?v=1571442071",
     "rating":4.6
   },
-  {
-    "id": 6,
-    "title": "The Pink Crest",
-    "price": 20.99,
-    "img": "https://www.linkpicture.com/q/LPic623edb7462e001324412939.png",
-    "rating":4.6
-  },
+ 
   {
     "id": 7,
     "title": "Pink Gem Pineapple Crest Dangle Belly Ring",
@@ -60,6 +48,20 @@
     "title": "Gem Vampire Bat Halloween Hinged Segment Ring",
     "price": 11.40,
     "img": "https://cdn.shopify.com/s/files/1/1259/1581/products/67923.main_grande.jpg?v=1571442170",
+    "rating":4.6
+  },
+  {
+    "id": 1,
+    "title": "Women's Legends Naga Gold & Silver Chain Bracelet",
+    "price": 15.99,
+    "img": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating":4.6
+  },
+  {
+    "id": 2,
+    "title": "Solid Gold Petite Micropave ",
+    "price": 12.99,
+    "img": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
     "rating":4.6
   }
 ]
