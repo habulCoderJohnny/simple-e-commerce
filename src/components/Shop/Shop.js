@@ -15,15 +15,15 @@ const Shop = () => {
     // Adding product in cart
 
     const handleAddtoCart = (product) => {
-        const newCart = [...cart, product];
-
-    //   const addedProduct = newCart.find(product => product.id === id);
-    //   if (addedProduct) {
-    //     alert('not allow!!')
-    //   }
-
+        // exist product restriction
+      const exist= cart.find(item =>item.id ===product.id);
+      if (exist) {
+        alert('Madam! Your product already Exist!!')
+        return;
+      }
+      const newCart = [...cart, product];
       if(newCart.length > 4){
-        alert('You cannot add more than 4 items')
+        alert("You Can't add more than 4 item!!")
         return;
          }
         setCart(newCart)
