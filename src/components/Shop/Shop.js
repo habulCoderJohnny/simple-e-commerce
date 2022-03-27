@@ -16,13 +16,19 @@ const Shop = () => {
 
     const handleAddtoCart = (product) => {
         const newCart = [...cart, product];
-        if(newCart.length > 4){
-     alert('You cannot add more than 4 items')
-     return;
-    }
-        setCart(newCart)
 
+    //   const addedProduct = newCart.find(product => product.id === id);
+    //   if (addedProduct) {
+    //     alert('not allow!!')
+    //   }
+
+      if(newCart.length > 4){
+        alert('You cannot add more than 4 items')
+        return;
+         }
+        setCart(newCart)
     }
+    
     // Removing all items in cart
     const handleReset = () => {
         setCart(intialValue)

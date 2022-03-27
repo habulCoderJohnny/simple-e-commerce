@@ -24,7 +24,8 @@
      gap: 10px;
      margin: 10px 10px;}
     .cart-container{
-       width: 90%;}
+       width: 90%;
+    }
 
        h1{
         font-size: 18px;}
@@ -32,7 +33,16 @@
             font-size: 18px; }  
         .img-name{   
             display: block;
+            padding: 2px;
          }
+         .img-name img{
+            width: 80px;
+            height: 100px;}
+        .selected-product{
+            font-size: 12px;
+        }
+
+
          .product-list{
             height: 460px;}
 
