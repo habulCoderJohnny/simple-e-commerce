@@ -15,16 +15,12 @@ const Shop = () => {
     // Adding product in cart
 
     const handleAddtoCart = (product) => {
-        setCart([...cart, {
-            title: product.title,
-            img: product.img
-        }]);
-
-        if (cart.length >= 4) {
-            alert("you can't Buy more than 4 items!")
-            return;
-        }
-       
+        const newCart = [...cart, product];
+        if(newCart.length > 4){
+     alert('You cannot add more than 4 items')
+     return;
+    }
+        setCart(newCart)
 
     }
     // Removing all items in cart
